@@ -30,8 +30,8 @@ def postPhoto(interval, caption, ig_api):
         print("posted photo")
     else:
         print("post failed")
-    os.remove(rndPath)
-    print("deleted " + rndPhoto)
+   
+    
 
 def main():
     igUsername = readConfig()['username']
